@@ -10,4 +10,4 @@ def most_common_ele(arr):
     candid = [key for key,value in frequency.items() if value == max_freq]
     return min(candid)
 
-
+print(most_common_ele([1, 2, 3, 2, 1, 4, 1]))
